@@ -6,7 +6,7 @@ local hum = char.Humanoid
 game.ContextActionService:BindAction("WalkSpeed", function(actionName, userInputState, input)
     -- increase walkspeed when key is pressed
     if userInputState == Enum.UserInputState.Begin then
-        hum.WalkSpeed = hum.WalkSpeed + 2
+        hum.WalkSpeed = hum.WalkSpeed + 5
     end
 end, false, Enum.KeyCode.Z) -- bind key is Z
 -- by constantly pressing Z you will get a boost in ur run.
